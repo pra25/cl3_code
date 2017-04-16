@@ -1,0 +1,15 @@
+<html>
+
+<h1>Booths Algorithm</h1>
+<body>
+    <form action="/eval" method="POST">
+        Enter number1 <input name="num1" type="number">
+        Enter number2 <input name="num2" type="number">
+        <input type="submit" value="Multiply">
+    </form>
+        
+    {% if product %}
+        Product is {{ product }}
+    {% endif %}
+</body>
+</html>

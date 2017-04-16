@@ -1,0 +1,48 @@
+prajakta@prajakta-Inspiron-3543:~$ cd cl3
+prajakta@prajakta-Inspiron-3543:~/cl3$ cd a2
+prajakta@prajakta-Inspiron-3543:~/cl3/a2$ ls
+input.xml  quicksort.py  quicksort.pyc  quicktest.py
+prajakta@prajakta-Inspiron-3543:~/cl3/a2$ python quicksort.py
+list
+data 23
+data 2
+data 21
+[23, 2, 21]
+MainThread this thread found mid =  2
+MainThread this thread found mid =  1
+MainThread this thread found mid =  0
+Thread-3 this thread found mid =  0
+Thread-7 this thread found mid =  0
+Thread-7 this thread found mid =  1
+Thread-12 this thread found mid =  1
+[2, 21, 23]
+prajakta@prajakta-Inspiron-3543:~/cl3/a2$ python quicktest.py 
+list
+data 23
+data 2
+data 21
+[23, 2, 21]
+MainThread this thread found mid =  2
+MainThread this thread found mid =  1
+MainThread this thread found mid =  0
+Thread-3 this thread found mid =  0
+Thread-7 this thread found mid =  0
+Thread-7 this thread found mid =  1
+Thread-12 this thread found mid =  1
+[2, 21, 23]
+list
+data 23
+data 2
+data 21
+[23, 2, 21]
+.list
+data 23
+data 2
+data 21
+[23, 2, 21]
+.
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK
+prajakta@prajakta-Inspiron-3543:~/cl3/a2$
